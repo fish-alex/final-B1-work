@@ -95,7 +95,7 @@ while True:
         while True:
             print(SEPARATOR)
             print('ВЫВЕСТИ ИНФОРМАЦИЮ')
-            print('1 - Общая информация')
+            print('1 - Личная информация')
             print('2 - Вся информация')
             print('0 - Назад')
 
@@ -103,7 +103,7 @@ while True:
             if option2 == 0:
                 break
             if option2 == 1:
-                # print general information
+                # print personal information
                 print(SEPARATOR)
                 print('Имя:    ', name)
                 if 11 <= age % 100 <= 19:
