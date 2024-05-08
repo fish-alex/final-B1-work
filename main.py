@@ -147,7 +147,7 @@ while True:
                     print('Дополнительная информация:')
                     print(info)
 
-                # print business info
+                # print business info2
                 print('')
                 print('Информация о предпринимателе')
                 print('ОГРНИП: ', ogrnip)
